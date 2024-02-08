@@ -5,3 +5,6 @@
 - the web application uses ASP.NET MVC
 - all data will be stored in a SQL Server database, interacting with it using the Entity Framework
 - the application is intended for a library and allows records of books, readers and loans made
+
+# User Interface Design
+![](4.%20Books%20-%20List%20of%20Books.png)
