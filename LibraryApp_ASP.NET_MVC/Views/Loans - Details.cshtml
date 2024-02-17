@@ -1,0 +1,42 @@
+@model LibraryApp_ASP.NET_MVC.Models.Loan
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Loan</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.book.Title)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.book.Title)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.client.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.client.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.LoanDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LoanDate)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.LoanId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
