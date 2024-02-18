@@ -7,5 +7,5 @@
 - the application is intended for a library and allows records of books, readers and loans made
 
 # User Interface Design
-# Books
-![](4.%20Books%20-%20List%20of%20Books.png)
+# Books - Index
+![](2.%20Books%20-%20Index.png)
