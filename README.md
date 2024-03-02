@@ -12,3 +12,6 @@
 
 # Clients - Index
 ![](2.%20Clients%20-%20Index.png)
+
+# Loans - Index
+![](2.%20Loans%20-%20Index.png)
